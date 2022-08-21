@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f7f9fb;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+.container ul {
+    /* background-color: red; */
+    height: 70px;
+    display: flex;
+}
+
+.container ul li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: "Baloo Bhai 2", cursive;
+    /* color: white; */
+}
+
+.nav-left {
+    margin-top: 20px;
+    width: 400px;
+    font-family: "Baloo Bhai 2", cursive;
+}
+
+.nav-left a img {
+    width: 70px;
+}
+
+/* ----------------------------- content------------------------ */
+
+.content {
+    /* background-color: rgba(128, 128, 128, 0.139); */
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 156px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    /* font-family: "Baloo Bhai 2", cursive; */
+}
+
+.content-left h1 {
+    font-size: 66px;
+}
+
+.content-left p {
+    padding-left: 7px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.content-left p span {
+    color: red;
+}
+
+.content-right {
+    /* background-color: rgb(197, 197, 77); */
+    background-color: rgb(250, 250, 135);
+    width: 397px;
+    height: 468px;
+    border-radius: 50%;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgb(57, 47, 57);
+    /* background-color: purple; */
+    width: 200px;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    font-family: "Baloo Bhai 2", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.icons img {
+    width: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    padding-left: 20px;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+/* -------------------- ABOUT ------------------------- */
+
+.about {
+    background-color: #f7f9fb;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    font-family: "Baloo Bhai 2", cursive;
+    margin-top: 20px;
+}
+
+.about-me {
+    /* background-color: black; */
+    width: 40%;
+    font-size: 22px;
+}
+
+.sub-about div span {
+    color: blue;
+    font-weight: bold;
+}
+
+.p-1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.p-2 {
+    color: rgb(49, 48, 48);
+    font-size: 20px;
+}
+
+.sub-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-about div {
+    margin: 20px;
+}
+
+/* ------------------ My Skills -------------- */
+
+.myskills {
+    /* background-color: red; */
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Baloo Bhai 2", cursive;
+}
+
+.myskills div {
+    margin: 5px;
+}
+
+.myskills div p {
+    font-size: 18px;
+    color: rgb(65, 55, 55);
+}
+
+.box-container {
+    /* background-color: red; */
+    background-color: #f7f9fb;
+    height: 30vh;
+    font-family: "Baloo Bhai 2", cursive;
+}
+
+.box {
+    display: flex;
+    height: 254px;
+}
+
+.box div {
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.img {
+    width: 51px;
+}
+
+/* --------------------------- Myprojects---------------- */
+
+.myprojects {
+    /* background-color: red; */
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Baloo Bhai 2", cursive;
+}
+
+.myprojects div {
+    margin: 5px;
+}
+
+.myprojects div p {
+    font-size: 18px;
+    color: rgb(65, 55, 55);
+}
+
+.box-1 img {
+    width: 350px;
+    cursor: pointer;
+}
+
+.project-box {
+    display: flex;
+    justify-content: center;
+    height: 254px;
+}
+
+.project-box div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.project-box div p {
+    margin-top: 20px;
+    width: 400px;
+    color: rgb(79, 74, 74);
+    letter-spacing: 1px;
+}
+
+.project-box div p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.projectbox-container {
+    /* background-color: red; */
+    background-color: #f7f9fb;
+    height: 50vh;
+}
+
+/* --------------------- contact ------------------- */
+
+.mycontact {
+    /* background-color: red; */
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Baloo Bhai 2", cursive;
+}
+
+.mycontact div {
+    margin: 5px;
+}
+
+.mycontact div p {
+    font-size: 18px;
+    color: rgb(65, 55, 55);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact div {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.contact div div {
+    margin: 10px;
+}
+
+.submit-contact {
+    cursor: pointer;
+    background-color: rgb(12, 12, 150);
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    font-family: "Baloo Bhai 2", cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mycontact div p a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* -------------------------- Education -----------------------------*/
+
+.myeducation {
+    /* background-color: red; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Baloo Bhai 2", cursive;
+}
+
+.education {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Baloo Bhai 2", cursive;
+    background-color: #f7f9fb;
+}
+
+.education div span {
+    color: blue;
+    font-weight: bold;
+}
+
+.p-1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.p-2 {
+    color: rgb(49, 48, 48);
+    font-size: 20px;
+}
+
+.education div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.footer {
+    background-color: #0b529b;
+    height: 20vh;
+    /* width: 100vh; */
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.footer-content {
+    /* background-color: purple; */
+    height: 10vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-end {
+    /* background-color: purple; */
+    width: 100vh;
+    display: flex;
+    height: 5vh;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-end p {
+    margin: 3px;
+    letter-spacing: 1px;
+}
+
+.ham-icon img {
+    width: 20px;
+    display: none;
+}
+
+/* ---------------------------------- CSS MEDIA QUERY--------------------------- */
+@media only screen and (max-width: 1629px) {
+    .myeducation {
+        width: 100vh;
+    }
+    .education {
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+    }
+    .education div {
+        background-color: #eaf0f7;
+        height: 20vh;
+        margin: 20px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        padding: 20px;
+    }
+
+    .content {
+        /* background-color: blue; */
+        margin-top: 424px;
+        width: 100vh;
+    }
+
+    .content-right {
+        background-color: rgb(250, 250, 135);
+        border-radius: 50%;
+        width: 295px;
+        height: 360px;
+    }
+
+    .content-right img {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 1310px) {
+    /* ------------- my skills -------------*/
+    .myskills {
+        margin: 0 auto;
+        width: 100vh;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .box-container {
+        height: 100vh;
+        width: 100vh;
+    }
+
+    .about {
+        /* height: 100vh; */
+        width: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Baloo Bhai 2", cursive;
+        margin-top: 20px;
+    }
+
+    .about-me {
+        background-color: #eaf0f7;
+        height: 15vh;
+        /* width: 30%; */
+        padding: 30px;
+    }
+
+    .about div {
+        margin: 20px;
+    }
+
+    .sub-about div {
+        background-color: #eaf0f7;
+        margin-bottom: 20px;
+        height: 15vh;
+        padding: 20px;
+        width: 492px;
+    }
+
+    .myprojects {
+        width: 100vh;
+    }
+
+    .projectbox-container {
+        /* background-color: black; */
+        display: flex;
+        align-items: center;
+        width: 100vh;
+        height: 100vh;
+    }
+
+    .project-box {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .project-box div {
+        /* background-color: red; */
+        margin: 80px;
+        height: 10vh;
+    }
+
+    .contact {
+        width: 100vh;
+    }
+    .mycontact {
+        width: 100vh;
+    }
+
+    .footer {
+        background-color: #0b529b;
+        width: 100vh;
+    }
+
+    /* .navbar {
+        height: 33vh;
+    }
+
+    .container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .ham-icon img {
+        display: block;
+        z-index: 1;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .container ul {
+        background-color: #333;
+        height: 24vh;
+        width: 50vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 67px;
+        display: none;
+        transition: max-height 0.5s;
+    }
+
+    .container ul li {
+        margin-top: 5px;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container ul li a {
+        color: white;
+    } */
+}
