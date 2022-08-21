@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 
@@ -14,9 +15,15 @@ use App\Http\Controllers\ContactController;
 |
 */
 
+
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
+
+
+// Route::get('/', function () {
+//     return View::make('');
+// });
 
 
 Route::post('/home', [ContactController::class, 'store']);
